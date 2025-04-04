@@ -9,7 +9,8 @@ Cross platform
 Tech Stack
 Client: React, Redux, TailwindCSS
 
-Server: Node, django
+Server: Node, django,sql,python
+
 
 Installation
 Install my-project with npm
