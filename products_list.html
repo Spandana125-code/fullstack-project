@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+</head>
+<body style="background-color: lightpink;">
+    <center>
+        <h1>Product Details</h1>
+        <table border="2">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+        
+        {% for p in products_list %}
+        <div>
+            
+            <td><h2>{{ p.product_name }}</h2></td>
+            <td><p>Price: {{ p.price }}</p></td>
+            
+        </div>
+        
+        </tr>
+        {% endfor %}
+        
+    </center>
+</body>
+</html>
